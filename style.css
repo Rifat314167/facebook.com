@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+    
+}
+
+#main-div{
+    width: 185px;
+    height: 340px;
+}
+
+select, option{
+    color:rgb(49, 48, 48);
+    border: none;
+    margin-left: 31%;
+    margin-top: 10px;
+    font-size: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#facebook{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(19, 121, 236);
+    border-radius: 50%;
+    margin-left: 39%;
+    margin-top: 35px;
+    position: relative;
+}
+
+#f{
+    margin-left: 8px;
+    margin-top: -5px;
+    color: white;
+    font-size: 37px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    position: absolute;
+
+}
+
+#form-div{
+    margin-top: 40px;
+}
+
+
+.form-control{
+    border-radius: 6px;
+    width: 95%;
+    height: 26px;
+    border: none;
+    border: 1px solid rgb(216, 215, 215);
+    margin-left:5px ;
+    font-size: 9px;
+    letter-spacing: 1px;
+    margin-top: 8px;
+    
+    
+
+    
+}
+
+.submit{
+    width: 10px;
+    background-color: rgb(19, 121, 236);
+    width: 95%;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    height: 17px;
+    border: none;
+    font-size: 10px;
+    letter-spacing: 1px;
+    border-radius: 10px;
+    margin-left: 5px;
+    margin-top: 10px;
+    color: white;
+    font-weight: bold;
+
+   
+}
+
+#p1{
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    letter-spacing:1px;
+    font-size: 9px;
+    margin-top:10px;
+    
+}
+
+#p2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing:1px;
+    font-size: 9px;
+    border: 1px solid rgb(67, 141, 252);
+    border-radius: 10px;
+    margin-top:50px;
+    padding-top: 2.5px;
+    height: 16px;
+    margin-left: 5px;
+    width: 95%;
+
+    color: rgb(19, 121, 236);
+  
+ 
+    
+}
+
+
+
+#meta{
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    letter-spacing:1px;
+    font-size: 10px;
+    margin-top: 6px;
+    font-weight: bold;
+    color: rgb(41, 40, 40);
+
+}
+
+
+@media (max-width:185px){
+    *{
+width: 185px;
+height: 340px;
+
+    }
+}
+
+
+
